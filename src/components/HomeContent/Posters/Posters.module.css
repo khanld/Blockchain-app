@@ -1,0 +1,35 @@
+.Body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: none;
+    background-color: white;
+}
+
+.Wrapper {
+    width: 300px;
+    margin: 20px auto;
+    padding-bottom: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+@media (min-width: 576px) {
+    .Wrapper {
+        width: 400px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .Wrapper {
+        width: 300px;
+    }
+
+}
+
+
+

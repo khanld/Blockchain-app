@@ -1,0 +1,56 @@
+.Member {
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.Image  {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 4px;
+    overflow: hidden;
+} 
+
+.Image > img {
+    width: 100%;
+    height: auto;
+}
+
+.Content {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    color: gray;
+    padding: 20px 30px 0 30px;
+}
+
+.Content > p {
+    padding: 0 10px;
+}
+
+.Content > h6 {
+    opacity: 0.6;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.Content > h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.Icon {
+    text-align: center;
+    color: gray;
+    font-size: 1.7em;
+}
+
+.Icon > i{
+    margin: 0 8px;
+}
+
+.Icon > i:hover{
+    color: black;
+}

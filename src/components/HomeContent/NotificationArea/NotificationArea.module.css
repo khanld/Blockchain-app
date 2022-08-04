@@ -1,0 +1,10 @@
+.NotificationArea {
+    color: white;
+    text-align: center;
+    height: 400px;
+    padding-top: 80px;
+}
+.NotificationArea > div {
+    margin-top: 40px;
+    max-height: 40px;
+}

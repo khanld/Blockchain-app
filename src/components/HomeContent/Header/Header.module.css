@@ -1,0 +1,23 @@
+.Header {
+    text-align: center;
+    padding: 60px 0;  
+}
+
+.Header > p:first-child {
+    color: gray;
+    margin: 0px;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+
+.Header > h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+

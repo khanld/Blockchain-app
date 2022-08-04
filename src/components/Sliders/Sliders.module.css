@@ -1,0 +1,18 @@
+.Sliders {
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    animation-name: Sliders;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+

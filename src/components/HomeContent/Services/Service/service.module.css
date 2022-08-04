@@ -1,0 +1,27 @@
+.Service {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Service > div:first-child > h3 {
+    font-size: 2.5em;
+    color: orangered;
+}
+
+.Service > div {
+    padding: 0 15px 0 10px;
+    color: gray;
+}
+
+.Service > div:last-child {
+    color: gray;
+}
+
+.Service > div:last-child > h3 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.Service > div:last-child > p:last-child {
+    color: orangered;
+}

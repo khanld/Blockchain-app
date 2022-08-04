@@ -1,0 +1,69 @@
+.PosterImage {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.PosterImage > img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s;
+}
+
+.PosterImage:first-child::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: background-color 1s;
+}
+
+.PosterImage:first-child:hover::before {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.PosterImage:first-child::after{
+    content: "";
+    border: 7px solid rgb(165, 108, 3);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    transition: width 2s, height 2s;
+    visibility: hidden;
+}
+
+.PosterImage:first-child:hover::after {
+    width: 85%;
+    height: 85%;
+    visibility: visible;
+}
+
+.PosterImage:first-child:hover img {
+    transform: scale(1.5);
+}
+
+.PosterImage:first-child:hover div:last-child{
+    opacity: 1;
+}
+
+.Point {
+    position: absolute;
+    background-color: rgb(165, 108, 3);
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    max-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    z-index: 9;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+

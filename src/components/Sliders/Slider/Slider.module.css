@@ -1,0 +1,70 @@
+.Slider {
+    height: auto;
+    position: relative;
+    min-width: 100%;
+    animation-name: Slider;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-delay: 3s;
+}
+
+@keyframes Slider {
+    0% {transform: translateX(0);}
+    20% {transform: translateX(-100%);}
+    30% {transform: translateX(-100%);}
+    50% {transform: translateX(-200%);}
+    60% {transform: translateX(-200%);}
+    80% {transform: translateX(0);}
+    100% {transform: translateX(0);}
+}
+
+
+.Content {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+}
+
+.Content > button {
+    border: 0.8px solid white;
+    width: 150px;
+    margin-right: 7px;
+}
+
+.Content > button + button {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+.Content > button + button:hover {
+    background-color: transparent;
+}
+
+.Content > button > a {
+    display: block;
+    text-decoration: none;  
+    color: white;
+}
+
+
+.Backdrop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Slider > img{
+    width: 100%;
+    min-height: 300px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  

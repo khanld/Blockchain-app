@@ -1,0 +1,44 @@
+.Certificate {
+    position: relative;
+    font-family: cursive;
+}
+
+.Content {
+    position: absolute;
+    top: 35px;
+    text-align: center;   
+    width: 100%;
+}
+
+.Header {
+    padding-bottom: 55px;
+}
+
+.Header > p {
+    margin-bottom: 10px;
+}
+
+.Center {
+    padding-top: 18px;
+}
+
+.Center > div {
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.Center > div > p {
+}
+
+.Center > h3 {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .Center > div {
+        padding-bottom: 35px;
+    }
+    
+}

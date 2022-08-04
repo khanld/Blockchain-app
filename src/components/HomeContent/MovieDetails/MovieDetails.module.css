@@ -1,0 +1,37 @@
+.Container {
+    margin-bottom: 15px !important;
+}
+
+.MovieDetails {
+    background-color: white;
+    margin: 0 !important;
+    padding: 25px 0;
+}
+.RowReverse {
+    flex-direction: row-reverse !important;
+}
+
+.MoviePoster {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px ;
+}
+
+.MovieContent {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .MoviePoster {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .MoviePoster {
+        width: 80%;
+    }
+}
+

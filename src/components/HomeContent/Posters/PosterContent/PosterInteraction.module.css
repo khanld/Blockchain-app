@@ -1,0 +1,42 @@
+.PosterInteraction {
+    padding: 15px 0 0 0;
+}
+.PosterInteraction > p {
+    color: gray;
+    font-size: 12px;
+}
+.Icon {
+    padding: 5px 0;
+}
+
+.Icon > span {
+    margin: 0 20px 0 0;
+    transition: color 0.5s;
+}
+
+.Icon > span:hover i{
+    cursor: pointer;
+    color: rgb(165, 108, 3);
+}
+
+.Icon > span > span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+
+.MovieContent > p {
+    color: gray;
+    line-height: 1.8;
+}
+.MovieContent > h3 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.MovieContent > p > strong {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}

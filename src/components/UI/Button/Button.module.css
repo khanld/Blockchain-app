@@ -1,0 +1,56 @@
+.Button {
+    background-color: transparent;
+    border: 1.5px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    outline: none;
+    display: inline-block;
+}
+
+.Button:hover,
+.Button:active {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+.PosterButton {
+    background-color: #000;
+    border: 2px solid black;
+    margin: 2px 3px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.PosterButton:hover {
+    background-color: white;
+    color: black; 
+}
+
+.PosterButton + button{
+    background-color: white;
+    color: black;
+}
+
+.PosterButton+ button:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+
+.PosterButton> a:hover{
+    color: black !important;
+    text-decoration: none;
+   
+}
+
+.PosterButton:hover > strong >i {
+    color: black !important;
+}

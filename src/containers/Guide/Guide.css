@@ -1,0 +1,13 @@
+.vertical-timeline {
+    background-color: rgb(242, 242, 242);
+}
+.vertical-timeline::before {
+    background: black;
+  }
+
+.vertical-timeline-element-date {
+  color: black;
+}
+.vertical-timeline-element-subtitle {
+  font-size: 1.3em;
+}
